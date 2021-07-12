@@ -24,6 +24,6 @@ variable "tags" {
 
 variable "availability_zone" {
   description = "The AZ for the subnet"
-  type = string
-  default = "us-east-1a"
+  type        = string
+  default     = "us-east-1a"
 }

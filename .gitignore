@@ -1,5 +1,6 @@
 # Directories
 .terraform/
 .terraform*
-*.tfstate
+*.tfstate*
+*myplan*
 .git/
