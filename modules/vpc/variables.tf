@@ -17,7 +17,7 @@ variable "private_subnet_cidr" {
 }
 
 variable "tags" {
-  description = "Tags to set on the EC2 instance"
+  description = "Tags to set on the resource"
   type        = map(string)
   default     = { Name = "Base Platform VPC" }
 }
