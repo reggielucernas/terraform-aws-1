@@ -20,3 +20,10 @@ module "vpc" {
   public_subnet_cidr  = "10.1.100.0/24"
 
 }
+
+module "web" {
+  source            = "./modules/ec2"
+  ami               = "ami-0dc2d3e4c0f9ebd18"
+  instance_type     = "t3.micro"
+  availability_zone = "us-east-1a"
+}
