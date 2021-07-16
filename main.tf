@@ -26,4 +26,5 @@ module "web" {
   ami               = "ami-0dc2d3e4c0f9ebd18"
   instance_type     = "t3.micro"
   availability_zone = "us-east-1a"
+  subnet_id         = module.vpc.private_subnet_id
 }
